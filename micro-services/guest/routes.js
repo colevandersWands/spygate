@@ -1,16 +1,12 @@
-var controller = require('./controller');
 var express = require('express');
 var router = express.Router();
 
+var controller = require('./controller');
 var view = require('./views/send');
-var model = require('../model/index');
-
-controller.model = model;
 
 router.use(function(req, res, next) {
 	view.res = res;
 	controller.view = view;
-	res.locals.controller = controller;
 	next();
 })
 

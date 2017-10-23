@@ -1,3 +1,8 @@
+var model = require('../model/index');
+
+controller.model = model;
+
+
 var controller = {
 	view: {},
 	model: {},
