@@ -1,9 +1,10 @@
 var view = {
+	res: {},
 	render_one: function(item) {
-		res.send(item);
+		this.res.send(item);
 	},
 	render_all: function(items) {
-		res.send(items);
+		this.res.send(items);
 	}
 };
 

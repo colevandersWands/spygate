@@ -1,15 +1,16 @@
-var view = require('./views/send');
-var model = require('../model');
-
 var controller = {
-	get_one: function(req, res) {
-		var item = model.read(req.params.id);
-		view.render_one(item);
+	view: {},
+	model: {},
+	get_one: function(id) {
+		var item = this.model.read(id);
+		this.view.render_one(item);
 	},
-	get_all: function(req, res) {
-		var allItems = model.getAll();
-		view.render_all(allItems);
+	get_all: function() {
+		var allItems = this.model.getAll();
+		this.view.render_all(allItems);
 	}
 };
+
+
 
 module.exports = controller;

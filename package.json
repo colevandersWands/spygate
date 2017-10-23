@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/colevandersWands/spygate/issues"
   },
-  "homepage": "https://github.com/colevandersWands/spygate#readme"
+  "homepage": "https://github.com/colevandersWands/spygate#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

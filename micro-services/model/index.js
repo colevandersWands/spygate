@@ -13,7 +13,7 @@ var model = {
 		return this.db[id]
 	},
 	update: function(id, newValue, key) {
-		this.db[id][key] = newValue,
+		this.db[id][key] = newValue;
 	},
 	remove: function(id) {
 		delete this.db[id];
