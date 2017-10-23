@@ -1,0 +1,19 @@
+{
+  "name": "spygate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colevandersWands/spygate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colevandersWands/spygate/issues"
+  },
+  "homepage": "https://github.com/colevandersWands/spygate#readme"
+}
